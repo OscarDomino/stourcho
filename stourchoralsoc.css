@@ -1,0 +1,396 @@
+html {
+overflow-y: scroll;
+}
+
+body {
+font-family: "Times New Roman", Times, serif;
+font-size: 17px;
+margin: 0px;
+background-image: url('bg_music.png');
+background-size: 900px;
+}
+
+#wrapper {
+width: 982px;
+margin: 0px auto;
+background-color:#FAFAFA;
+text-align: left;
+overflow: hidden;
+border-left: 1px solid #D0D0D0;
+border-right: 1px solid #D0D0D0;
+}
+
+#header {
+float: left;
+margin: 0;
+padding-left: 0px ;
+height: 230px;
+width: 982px;
+border-bottom: 3px double #D0D0D0;
+}
+
+#header h1 {
+height: 180px;
+margin-top: 0;
+margin-bottom: 0;
+background-image: url('bg_header.png');
+background-repeat: no-repeat;
+border-bottom: 1px solid #D0D0D0;
+}
+
+#navigation li {
+float: left;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+#navigation ul {
+list-style-type: none;
+height: 18px;
+padding-left: 0;
+margin-top: 16px;
+margin-bottom: 16px;
+margin-left: 0;
+margin-right: 0;
+}
+
+#navigation {
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold;
+width: 982px;
+text-align: center;
+float: left;
+height: 50px;
+}
+
+#navigation a.noncurrent {
+color: #808080;
+text-align: center;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+margin-left: 0;
+padding-left: 0;
+}
+
+#navigation a.current {
+color: #CD1076;
+text-align: center;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+margin-left: 0;
+padding-left: 0;
+}
+
+#navigation a:hover {
+color: #CD1076;
+}
+
+#breadcrumbs {
+font-family: Arial;
+font-size: 13px;
+color: #808080;
+}
+
+#breadcrumbs a {
+color: #CD1076;
+}
+
+#content {
+width: 962px;
+border-bottom: 1px solid #D0D0D0;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#content #left_column {
+float: left;
+width: 498px;
+border-right: 3px double #D0D0D0;
+padding-right: 10px;
+margin-top: 0 px;
+margin-bottom: 0px;
+min-height: 400px;
+}
+
+#welcome_photo {
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+#content #right_column {
+width: 441px;
+float: right;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#content #right_column #forthcoming_events {
+height: auto;
+background-color: #856363;
+border: 3px double #FFFFFF;
+color: #ffffff;
+min-height: 200px;
+padding-top: 0px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 0px;
+font-family: "Times New Roman", Times, serif;
+font-weight: lighter;
+}
+
+#forthcoming_events a{
+color: #ffffff;
+}
+
+#forthcoming_events a:hover {
+color: #CD1076;
+}
+
+#forthcoming_events #concert_title {
+/* color: #ffbf00;
+text-shadow: 2px 2px #ff8000;
+*/
+text-shadow: 0 1px 1px #000;
+}
+
+#forthcoming_events #poster {
+width: 80px;
+height: 120px;
+margin: 0;
+}
+
+#forthcoming_events #text_rposter {
+width: 200px;
+height: 120px;
+margin: 0;
+border-left: 10px;
+}
+
+/*THUMBNAIL HOVERPOPUPS*/
+
+.thumbnail  {
+	width: 70px;
+}
+/*
+.thumbnail:hover {
+	width: 354px;
+}*/
+
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #FFFFFF;
+	padding: 10px;
+	/*left: -1000px;*/
+	border: 1px solid #D0D0D0;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0px; 
+	width: 490px;
+	/* width: 430px; */
+	/*padding: 2px;*/
+}
+
+.thumbnail:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; 
+/*	width: 200px; */
+	top: 10px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 700px;/*position where enlarged image should offset horizontally */
+/*	width: 354px; */
+}
+
+
+#content #left_menu li {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#content #left_menu ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+#content #left_menu { 
+font-size: 19px;
+margin: 0;
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 0;
+padding-right: 10px;
+width: 190px;
+float: left;
+/*border-right: 3px double #D0D0D0;*/
+/* background-color: #856363; */
+}
+
+#content #left_menu a.current {
+color: #CD1076; /*#808080;*/
+text-align: left;
+text-decoration: underline;
+}
+
+#content #left_menu a.noncurrent {
+color: #856363; /*#808080;*/
+text-align: left;
+text-decoration: underline;
+}
+
+#content #left_menu a:hover {
+color: #CD1076;
+}
+
+#content #left_menu_text {
+float: right;
+width: 749px;
+margin: 0;
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 10px;
+padding-right: 0;
+border-left: 3px double #D0D0D0;
+}
+
+#footer {
+clear:both;
+float:left; 
+width: 982px;
+height: 100px; /* 150px; */
+position: relative;
+bottom: 0;
+left: 0;
+font-family: Arial;
+font-size: 10px; 
+}
+
+#footer_text {
+font-size: 11px;
+width: 430px;
+float: left;
+margin: 10px;
+}
+
+#footer ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+#footer li {
+float: left;
+margin-left: 0px;
+margin-right: 10px;
+}
+
+#footer_text a {
+color: #808080;
+text-align: left;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+/*margin-left: 0;
+padding-left: 0; */
+}
+
+#footer_credits a {
+color: #000000;
+text-transform: none;
+display: inline;
+}
+
+#footer_credits a:hover {
+text-decoration: underline;
+}
+
+#footer_icons {
+width: 383px;
+float: right;
+}
+
+#mmlogo {
+width: 243px;
+height: 63px;
+padding: 10px;
+margin: 0;
+float: left;
+}
+
+#mmlogo #mmlogotext {
+float:left;
+width: 120px;
+height: 63px;
+padding-left: 5px;
+}
+
+#fblogo {
+float: left;
+padding: 10px;
+width: 100px;
+}
+
+.tg {
+border-collapse:collapse;
+border-spacing:0;
+border-color:#ccc;
+}
+
+.tg td {
+font-family:Arial, sans-serif;
+font-size:12px;
+padding:14px 14px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+color:#333;
+background-color:#fff;
+}
+
+.tg th {
+font-family:Arial, sans-serif;
+font-size:14px;
+font-weight:normal;
+padding:14px 20px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+color:#333;
+background-color:#f0f0f0;
+}
+
+.tg .tg-4eph {
+background-color:#f9f9f9
+}
+
+#mail_form
+		p.error, p.success {
+			font-weight: bold;
+			padding: 10px;
+			border: 1px solid;
+		}
+		p.error {
+			background: #ffc0c0;
+			color: #900;
+		}
+		p.success {
+			background: #b3ff69;
+			color: #4fa000;
+		}
+
+.boxed {
+border: 1px solid #CD1076;
+padding: 10px;
+background-color: #ffffcc;
+}
