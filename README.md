@@ -1,10 +1,11 @@
-Websites demo "# stourcho"
+# Website demo "stourcho"
+
 This demo website is a copy of a site created for Stour Choral Society which was published in 2014 and maintained until August 2020. 
 Before starting the work, I conducted a survey of all members, to find out what the society wanted from a website. I then designed a structure for the site, 
 including menus and submenus. I looked at a lot of other websites for similar organisations for ideas, 
 and used the "Inspect Element" tool to learn how some of the features had been produced.
 
-I used WWW Schools to help me learn basic HTML and CSS, as well as using websites such as Stack Exchange, Stack Overflow and Youtube to help me solve problems. 
+I used W3 Schools to help me learn basic HTML and CSS, as well as using websites such as Stack Exchange, Stack Overflow and Youtube to help me solve problems. 
 A PHP contact form was included and some Javascript for elements such as a 'Back' button. 
 Paintshop Pro was used to create the header image, which was based around a photograph of the River Stour, merging it with the society logo and a recent photo of the choir.
 
