@@ -7,6 +7,8 @@ size is altered. (Please note this is a work in progress.)
 
 - The new WordPress website for Stour Choral Society is located at <a href="https://www.stourchoralsociety.co.uk" target="_blank">www.stourchoralsociety.co.uk.</a>
 
+<a href="readme.md" target="_blank">README file.</a>
+
 Thank you for looking!
 
 Katherine Wilde
